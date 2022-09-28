@@ -10,8 +10,7 @@ const aliensSchema = new mongoose.Schema({
         required: true
     },
     sub: {
-        type: Boolean,
-        default: false
+        type: String,
     }
 })
 

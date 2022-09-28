@@ -19,6 +19,7 @@ router.post('/add', async (req, res) => {
         const alien = new Alien({
             name: req.body.name,
             tech: req.body.tech,
+            sub: req.body.sub
         })
 
         await alien.save()
